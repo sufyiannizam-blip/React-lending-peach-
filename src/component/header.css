@@ -1,0 +1,9 @@
+nav {
+    padding: 10px;
+}
+.logo {
+ color: black;
+}
+.nav-text {
+    display: flex;
+}
