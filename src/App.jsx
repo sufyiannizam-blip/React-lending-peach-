@@ -3,6 +3,7 @@ import Header from './component/Header'
 import Hero from './component/hero/Hero'
 import Cards from './component/card Section/cards'
 import About from './component/about section/About'
+import Commint from './component/commint section/commint'
 const App = () => {
   return (
     <div>
@@ -10,6 +11,7 @@ const App = () => {
       <Hero />
       <Cards />
       <About />
+      <Commint />
     </div>
   )
 }

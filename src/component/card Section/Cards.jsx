@@ -23,7 +23,7 @@ const Cards = () => {
             <li>Caribbean</li>
             <li>More</li>
           </ul>
-          <button className="button">Explore all destinations</button>
+          <button className="btn">Explore all destinations</button>
         </div>
         <div className="cards">
           <div className="card">

@@ -9,6 +9,7 @@ const About = () => {
     <>
       <div className="about-hading">
         <h2>Latest Stories</h2>
+        <button className="btn">Expiore all destinations</button>
       </div>
       <div className="about-group">
         <div className="about-left">
@@ -32,24 +33,32 @@ const About = () => {
         <div className="about-right">
           <div className="Latest-Stories">
             <img src={image} alt="" />
-            <p>Lorem ipsum dolor sit amet.</p>
-            <h2>15 South London Maraner You ti oes: Eest Markats in South</h2>
-            <p></p>
+            <div className="stories-text">
+              <p>Lorem ipsum dolor sit amet.</p>
+              <h2>15 South London Maraner You ti oes: Eest Markats in South</h2>
+              <p>2026</p>
+            </div>
           </div>
           <div className="Latest-Stories">
             <img src={Latest} alt="" />
-            <p>Lorem ipsum dolor sit amet.</p>
-            <h2>
-              Oincredisle hatels arund the world you con bouk with polnte in
-              2074
-            </h2>
-            <p></p>
+            <div className="stories-text">
+              <p>Lorem ipsum dolor sit amet.</p>
+              <h2>
+                Oincredisle hatels arund the world you con bouk with polnte in
+                2074
+              </h2>
+              <p>2026</p>
+            </div>
           </div>
           <div className="Latest-Stories">
             <img src={Stories} alt="" />
-            <p>Lorem ipsum dolor sit amet.</p>
-            <h2>Viciling Chiesgeon a ludget: Affordabls Eata and Attraction</h2>
-            <p></p>
+            <div className="stories-text">
+              <p>Lorem ipsum dolor sit amet.</p>
+              <h2>
+                Viciling Chiesgeon a ludget: Affordabls Eata and Attraction
+              </h2>
+              <p>2026</p>
+            </div>
           </div>
         </div>
       </div>
