@@ -9,8 +9,8 @@ const Hero = () => {
       <div className="hero">
         <div className="hero-text">
           <h2>
-            Discover the    World's  <span>Hidden</span>
-             Wonders
+            Discover the World's <span>Hidden</span>
+            Wonders
           </h2>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo quas

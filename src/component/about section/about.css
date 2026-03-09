@@ -1,0 +1,10 @@
+.about-group {
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+    padding: 20px;
+}
+.about-left {
+    display: flex;
+    flex-direction: column;
+}
