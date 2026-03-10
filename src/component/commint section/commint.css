@@ -1,0 +1,31 @@
+.commint-group {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+
+}
+.commint-text {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+.commint-text img {
+    width: 35px;
+    border-radius: 50px;
+}
+.commint {
+    
+    padding-right: 50px;
+}
+.img-left img {
+    width: 250px;
+    height: 400px;
+    margin: 10px;
+    
+}
+.hadding {
+    font-size: 1.5rem;
+    padding: 10px 25px;
+}

@@ -1,0 +1,88 @@
+.footer-container {
+  background-color: #ffffff;
+  padding: 50px 10%;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Main row for columns */
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+/* Individual Column */
+.footer-column {
+  min-width: 150px;
+}
+
+.footer-column h3 {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  color: #000;
+  font-weight: bold;
+}
+
+/* Links Styling */
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+/* Logo & Social Section */
+.logo-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.icon-box {
+  width: 30px;
+  height: 30px;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  font-size: 0.8rem;
+}
+
+/* Bottom Black Bar */
+.footer-bottom {
+  background-color: #000;
+  color: #fff;
+  text-align: left;
+  padding: 15px 10%;
+  font-size: 0.8rem;
+  margin-top: 40px;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+  }
+}

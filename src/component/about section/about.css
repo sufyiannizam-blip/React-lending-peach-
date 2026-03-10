@@ -1,4 +1,4 @@
-.about-hading {
+.about-hading  {
     display: flex;
     justify-content: space-between;
     padding: 10px 25px;
@@ -7,13 +7,15 @@
     display: flex;
     justify-content: center;
     gap: 20px;
-    border: 1px solid;
+   
     width: 100%;
     padding: 20px;
+    margin-bottom: 50px;
 }
 .about-left {
     display: flex;
     flex-direction: column;
+     padding-right: 60px;
 }
 .about-img, img{
     width: 300px;
